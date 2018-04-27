@@ -1,0 +1,19 @@
+body {
+  background: #263238;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 2000px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+* {
+    box-sizing: border-box;
+}

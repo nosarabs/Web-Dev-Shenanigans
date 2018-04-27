@@ -50,7 +50,7 @@ const square = new mojs.Shape({
   strokeWidth:    20,
   angle:          { 0 : -180 },
   duration:       1000
-}).then({
+  }).then({
   angle:          360,
   scale:          2,
   strokeWidth:    { 50 : 0 },
